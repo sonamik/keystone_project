@@ -1,0 +1,19 @@
+{
+  "name": "zero-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "keystone",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^8.0.2",
+    "@keystonejs/app-admin-ui": "^5.11.0",
+    "@keystonejs/app-graphql": "^5.1.5",
+    "@keystonejs/fields": "^9.0.3",
+    "@keystonejs/keystone": "^8.1.2"
+  }
+}
